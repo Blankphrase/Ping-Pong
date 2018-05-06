@@ -3,11 +3,14 @@
   height: 337px;
   text-align: center;
 }
-.col-xs-6 {
+.git {
   font-family: 'Lobster';
   color: #ee2c2c;
-  background-color: #eec900;
+  font-weight: bold;
 }
-.game {
+body {
   background-color: #838b8b;
+}
+.head {
+  font-family: 'Pacifico';
 }
