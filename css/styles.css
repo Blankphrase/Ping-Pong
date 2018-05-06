@@ -1,0 +1,16 @@
+.header {
+  background-image: url("../images/pingpong.jpg");
+  height: 337px;
+  text-align: center;
+}
+.git {
+  font-family: 'Lobster';
+  color: #ee2c2c;
+  font-weight: bold;
+}
+body {
+  background-color: #838b8b;
+}
+.head {
+  font-family: 'Pacifico';
+}
