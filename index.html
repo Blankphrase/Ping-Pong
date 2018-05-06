@@ -6,43 +6,49 @@
     <title>PING PONG</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
 
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="header">
-          <p>Ping-Pong</p>
-        </div>
-      <div class="sidebar">
-        <h3>Created By:<a href="https://github.com/Blankphrase">Blankphrase</h3>
+        <div class="header"></div>
       </div>
-      <div class="container">
-  <!--      <img src="images/pingpong.jpg">-->
-      </div>
-      <div class="formContainer">
-        <div class="textContainer">
-          <h2>Let's Play!</h2>
-          <h5>Rules:</h5>
-          <ol>
-            <li>Numbers Divisible by 3 become "Ping"</li>
-            <li>Numbers Divisible by 5 become "Pong"</li>
-            <li>Numbers Divisible by 3 AND 5 become "PingPog"</li>
-          </ol>
+    </div>
+    <div class="container-fluid game">
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+          <h3>Created By:<a href="https://github.com/Blankphrase">Blankphrase</h3>
         </div>
-        <form class="pingform form-inline">
-          <div class="form-group">
-            <label for="number">Enter A Number</label>
-            <input type="number" id="number" name="number" value="" placeholder="Enter a number here...">
+        <div class="col-xs-3"></div>
+      </div>
+    </div>
+    <div class="container">
+        </div>
+        <div class="formContainer">
+          <div class="textContainer">
+            <h2>Let's Play!</h2>
+            <h5>Rules:</h5>
+            <ol>
+              <li>Numbers Divisible by 3 become "Ping"</li>
+              <li>Numbers Divisible by 5 become "Pong"</li>
+              <li>Numbers Divisible by 3 AND 5 become "PingPog"</li>
+            </ol>
           </div>
-          <button type="submit" class="btn btn-custom" id="submit" name="button">PING PONG</button>
-        </form>
-      </div>
-      <div class="resultsOutput">
-        <ul class="numbersList"></ul>
-      </div>
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/scripts.js"></script>
+          <form class="pingform form-inline">
+            <div class="form-group">
+              <label for="number">Enter A Number</label>
+              <input type="number" id="number" name="number" value="" placeholder="Enter a number here...">
+            </div>
+            <button type="submit" class="btn btn-custom" id="submit" name="button">PING PONG</button>
+          </form>
+        </div>
+        <div class="resultsOutput">
+          <ul class="numbersList"></ul>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/scripts.js"></script>
     </div>
 </body>
 

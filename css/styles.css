@@ -1,0 +1,13 @@
+.header {
+  background-image: url("../images/pingpong.jpg");
+  height: 337px;
+  text-align: center;
+}
+.col-xs-6 {
+  font-family: 'Lobster';
+  color: #ee2c2c;
+  background-color: #eec900;
+}
+.game {
+  background-color: #838b8b;
+}
