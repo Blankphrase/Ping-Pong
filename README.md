@@ -13,6 +13,19 @@ A web application that takes a number from a user and returns a range of numbers
 * Internet connection to load to the internet
 * Javascript enabled in the Browser
 The live site is https://blankphrase.github.io/Ping-Pong/
+## Specifications
+The following are the specifications for this application:
+#### INPUT
+* The application only works when a user enters an integer into the text box.
+
+#### INPUT TYPE
+  * The application has a httml5 input validation for maxnumber = 3. This forces it to only accept 3 integers as the input, preventing the application from hanging due to large inputs.
+
+#### OUTPUT
+* The application has 3 types of output:
+  * ping - When the input is divisible by 3.
+  * pong - When the input is divisible by 5.
+  * pingpong - When the input divisible by both 3 and 5.
 ## Technologies Used
 Languages used:
   * HTML
