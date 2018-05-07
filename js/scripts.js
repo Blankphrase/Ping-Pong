@@ -1,23 +1,23 @@
-function pingpong(startPoint) {
-  if ((startPoint % 3 === 0 && startPoint % 5 === 0)) {
+function go(input) {
+  if ((input % 3 === 0 && input % 5 === 0)) {
     return ('pingpong');
-  } else if (startPoint % 5 === 0) {
+  } else if (input % 5 === 0) {
     return ('pong');
-  } else if (startPoint % 3 === 0) {
+  } else if (input % 3 === 0) {
     return ('ping');
   } else {
-    return startPoint;
+    return input;
   }
 }
 
 
 $(document).ready(function() {
-  $('#submit').click(function(event) {
-    var userNumber = parseInt($('input#number').val());
-    event.preventDefault();
-    $('ul.numbersList').empty();
-    for (var startPoint = 1; startPoint <= userNumber; startPoint += 1) {
-      $('ul.numbersList').append('<li>' + pingpong(startPoint) + '</li>');
+  $('#value').click(function(action) {
+    var userInput = parseInt($('input#integer').val());
+    action.preventDefault();
+    $('ul.list').empty();
+    for (var input = 1; input <= userInput; input += 1) {
+      $('ul.list').append('<li>' + go(input) + '</li>');
     }
   });
 });

@@ -11,6 +11,16 @@
 body {
   background-color: #838b8b;
 }
-.head {
+#head {
   font-family: 'Pacifico';
+  color: #ee2c2c;
+}
+#label {
+  color: #ee2c2c;
+  font-family: 'Pacifico';
+}
+#value {
+  color: #0000FF;
+  font-family: 'Lobster';
+  font-weight: bold;
 }
